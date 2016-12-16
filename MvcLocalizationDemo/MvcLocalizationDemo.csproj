@@ -149,6 +149,7 @@
     <Compile Include="Models\ResourceEntry.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ResourceProvider\BaseResourceProvider.cs" />
+    <Compile Include="ResourceProvider\SqlResourceProvider.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="App_Readme\Elmah.txt" />
