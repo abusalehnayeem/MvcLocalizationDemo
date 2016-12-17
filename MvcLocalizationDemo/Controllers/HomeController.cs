@@ -3,13 +3,28 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using MvcLocalizationDemo.Data;
 
 namespace MvcLocalizationDemo.Controllers
 {
-    public class HomeController : Controller
+    public class HomeController : BaseController
     {
+        private ApplicationDbContext _db;
+
+        public HomeController()
+        {
+            _db = new ApplicationDbContext();
+        }
+
         public ActionResult Index()
         {
+            return View();
+        }
+
+        [HttpGet]
+        public ActionResult Create()
+        {
+
             return View();
         }
 

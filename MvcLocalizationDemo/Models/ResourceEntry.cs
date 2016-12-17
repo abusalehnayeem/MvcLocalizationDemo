@@ -7,7 +7,7 @@ using System.Web;
 
 namespace MvcLocalizationDemo.Models
 {
-    public sealed class ResourceEntry
+    public class ResourceEntry
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]

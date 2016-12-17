@@ -15,6 +15,7 @@ namespace MvcLocalizationDemo.Data
         }
 
         public DbSet<ResourceEntry> ResourceEntry { get; set; }
+        public DbSet<Employees> Employees { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
